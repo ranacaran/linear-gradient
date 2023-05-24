@@ -7,79 +7,79 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    "5 1 1 1 3 3"
-    "6 1 1 1 4 4"
-    "7 9 2 2 11 12"
-    "8 10 2 2 13 14";
+    "five one one one three three"
+    "six one one one four four"
+    "seven nine two two eleven twelve"
+    "eight ten two two thirteen fourteen";
     
     &__element {
         &--1 {
-            grid-area: 1;
+            grid-area: one;
             background-color: white;            
         } 
     
         &--2 {
-            grid-area: 2;
+            grid-area: two;
             background-color: white;
         }
 
         &--3 {
-            grid-area: 3;
+            grid-area: three;
             background-color: white;
         }
 
         &--4 {
-            grid-area: 4;
+            grid-area: four;
             background-color: white;
         }
 
         &--5 {
-            grid-area: 5;
+            grid-area: five;
             background-color: white;
         }
 
         &--6 {
-            grid-area: 6;
+            grid-area: six;
             background-color: white;
         }
 
         &--7 {
-            grid-area: 7;
+            grid-area: seven;
             background-color: white;
         }
 
         &--8 {
-            grid-area: 8;
+            grid-area: eight;
             background-color: white;
         }
 
         &--9 {
-            grid-area: 9;
+            grid-area: nine;
             background-color: white;
         }
 
         &--10 {
-            grid-area: 10;
+            grid-area: ten;
             background-color: white;
         }
 
         &--11 {
-            grid-area: 11;
+            grid-area: eleven;
             background-color: white;
         }
 
         &--12 {
-            grid-area: 12;
+            grid-area: twelve;
             background-color: white;
         }
 
         &--13 {
-            grid-area: 13;
+            grid-area: thirteen;
             background-color: white;
         }
 
         &--14 {
-            grid-area: 14;
+            grid-area: fourteen;
             background-color: white;
         }  
     }
