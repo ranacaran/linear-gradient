@@ -1,0 +1,24 @@
+.shape-section {
+  background: #222;
+  border-bottom: 2px solid #555;
+  border-top: 2px solid #555;
+  margin-top: 30px;
+  padding: 40px 0;
+}
+
+.diamond {
+  background: #fff;
+  height: 60px;
+  text-align: center;
+  transform: rotate(45deg);
+  width: 60px;
+}
+
+.number {
+  color: #333;
+  display: table-cell;
+  height: 60px;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+  width: 60px;
+}/*# sourceMappingURL=linear-gradient.css.map */

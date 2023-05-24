@@ -1,0 +1,23 @@
+.element {
+    background: linear-gradient(#e66465, #9198e5);
+    
+    &__diamond {
+        display: flex;
+        background: #fff;
+        height: 20px;
+        transform: rotate(45deg);
+        width: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__number {
+        display: flex;
+        color: #333;
+        height: 20px;
+        transform: rotate(-45deg);
+        width: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}
