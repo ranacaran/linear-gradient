@@ -89,7 +89,6 @@ body {
 }
 
 .element {
-  background: linear-gradient(#e66465, #9198e5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,4 +103,24 @@ body {
 .number {
   transform: rotate(-45deg);
   text-align: center;
+}
+
+.gradient {
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.gradient--blue {
+  background: linear-gradient(rgb(75, 224, 235), rgb(130, 130, 248));
+}
+
+.gradient--orange {
+  background: linear-gradient(#e66465, #ffe46e);
+}
+
+.gradient--pink {
+  background: linear-gradient(#eb94d8, #fd50e6);
+}
+
+.gradient--purple {
+  background: linear-gradient(#ffcff7, #b17aaa);
 }/*# sourceMappingURL=index.css.map */

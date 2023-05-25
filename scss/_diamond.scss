@@ -1,0 +1,17 @@
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &__diamond {
+        background: #fff;
+        height: 20px;
+        transform: rotate(45deg);
+        width: 20px;
+    }
+}
+
+.number {
+    transform: rotate(-45deg);
+    text-align: center;
+}

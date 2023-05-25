@@ -1,18 +1,19 @@
-.element {
-    background: linear-gradient(#e66465, #9198e5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    &__diamond {
-        background: #fff;
-        height: 20px;
-        transform: rotate(45deg);
-        width: 20px;
-    }
+.gradient {
+    background: $color-linear-basic;
 }
 
-.number {
-    transform: rotate(-45deg);
-    text-align: center;
+.gradient--blue {
+    background: $color-linear-blue;
+}
+
+.gradient--orange {
+    background: $color-linear-orange;
+}
+
+.gradient--pink {
+   background: $color-linear-pink;
+}
+
+.gradient--purple {
+    background: $color-linear-purple;
 }
