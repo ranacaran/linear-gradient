@@ -1,18 +1,22 @@
 .title {
-    margin: 0 auto;
     background-color: $color-section-background;
     color: $font-color;
     height: 20%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0 auto;
+    
     
 
     &__main {
         font-size: 60px;
+        margin: 0;
     }
 
     &__secondary {
         font-size: 30px;
+        margin: 0;
     }
 }

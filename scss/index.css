@@ -1,91 +1,81 @@
 body {
   height: 100vh;
   width: 100vw;
+  background-color: black;
   margin: 0;
-  background-color: rgb(50, 58, 68);
 }
 
 .title {
-  margin: 0 auto;
   background-color: rgb(50, 58, 68);
   color: white;
   height: 20%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 0 auto;
 }
 .title__main {
   font-size: 60px;
+  margin: 0;
 }
 .title__secondary {
   font-size: 30px;
+  margin: 0;
 }
 
 .container {
   height: 70%;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   background-color: rgb(50, 58, 68);
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
   grid-template-areas: "five one one one three three" "six one one one four four" "seven nine two two eleven twelve" "eight ten two two thirteen fourteen";
 }
 .container__element--1 {
   grid-area: one;
-  margin: 10px;
 }
 .container__element--2 {
   grid-area: two;
-  margin: 10px;
 }
 .container__element--3 {
   grid-area: three;
-  margin: 10px;
 }
 .container__element--4 {
   grid-area: four;
-  margin: 10px;
 }
 .container__element--5 {
   grid-area: five;
-  margin: 10px;
 }
 .container__element--6 {
   grid-area: six;
-  margin: 10px;
 }
 .container__element--7 {
   grid-area: seven;
-  margin: 10px;
 }
 .container__element--8 {
   grid-area: eight;
-  margin: 10px;
 }
 .container__element--9 {
   grid-area: nine;
-  margin: 10px;
 }
 .container__element--10 {
   grid-area: ten;
-  margin: 10px;
 }
 .container__element--11 {
   grid-area: eleven;
-  margin: 10px;
 }
 .container__element--12 {
   grid-area: twelve;
-  margin: 10px;
 }
 .container__element--13 {
   grid-area: thirteen;
-  margin: 10px;
 }
 .container__element--14 {
   grid-area: fourteen;
-  margin: 10px;
 }
 
 .element {
